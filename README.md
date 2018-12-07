@@ -3,7 +3,7 @@
 This small piece of software does the following:
 
 1. Taps into Geonorge to find municipality number based on municipality name
-2. Taps into a Norkart Renovasjon API to fetch your yeary renovation schedule in a PDF file
+2. Taps into a Norkart Renovasjon API to fetch your yealy renovation schedule in a PDF file
 3. Parses and processes the PDF into a CSV format
 4. Creates events in Google Calendar based on the dates in your renovation schedule with an email reminder
 
@@ -18,7 +18,7 @@ This small piece of software does the following:
 * The software requires that you setup the `config.ini` with proper values:
   * You need an API key for Norkart Renovasjon API, which actors like [ÅRIM](http://arim.no/din-renovasjon/n%C3%A5r-blir-avfallet-mitt-henta) and [VØR](http://www.vor.no/toemekalender.6137546-470570.html) use.
   * You need a Calendar ID which can be found under "Integrate calendar" in a Google calendars settings.
-* For Google Calendar adding to work you need to replace `client_secrets.json` for OAuth authentication.
+* For Google Calendar adding to work you need to replace `client_secrets.json` for OAuth authentication:
   * The file can be obtained from [Google API Console](https://console.developers.google.com/apis/credentials).
 
 ## Example
