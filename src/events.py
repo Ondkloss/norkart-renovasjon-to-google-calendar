@@ -22,6 +22,8 @@ def get_events(filename, prefix, year, start_hour):
     with open(filename, newline='') as csvfile:
         dictionary = csv.DictReader(csvfile)
         for row in dictionary:
+            if 'Uke' not in row or len(row) == 2 and '0' in row:
+                raise ValueError('Unknown PDF format. Does it have any contents?')
             for key in row:
                 if row[key] and key != 'Uke':
                     _weekday, date = row[key].split(' ')

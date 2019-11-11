@@ -51,5 +51,5 @@ def create_json(event, timezone, reminder_offset):
 def get_service():
     service, _flags = sample_tools.init(
         [''], 'calendar', 'v3', __doc__, __file__,
-        scope='https://www.googleapis.com/auth/calendar')
+        scope='https://www.googleapis.com/auth/calendar.events')
     return service
