@@ -15,11 +15,21 @@ This small piece of software does the following:
 
 ## Requirements
 
-* The software requires that you setup the `config.ini` with proper values:
-  * You need an API key for Norkart Renovasjon API, which actors like [ÅRIM](http://arim.no/din-renovasjon/n%C3%A5r-blir-avfallet-mitt-henta) and [VØR](http://www.vor.no/toemekalender.6137546-470570.html) use.
-  * You need a Calendar ID which can be found under "Integrate calendar" in a Google calendars settings.
-* For Google Calendar adding to work you need to replace `client_secrets.json` for OAuth authentication:
-  * The file can be obtained from [Google API Console](https://console.developers.google.com/apis/credentials).
+- The software requires that you setup the `config.ini` with proper values:
+
+  - You need an API key for Norkart Renovasjon API, which actors like [ÅRIM](http://arim.no/din-renovasjon/n%C3%A5r-blir-avfallet-mitt-henta) and [VØR](http://www.vor.no/toemekalender.6137546-470570.html) use:
+
+    <img src="resources/example_api_key.png" alt="API-key from Chrome DevTools" width="640"/>
+
+  - You need a Calendar ID which can be found under "Integrate calendar" in a Google calendars settings:
+
+    <img src="resources/example_calendar_id.png" alt="Calendar ID from Google Calendar settings" width="640"/>
+
+- For Google Calendar adding to work you need to replace `client_secrets.json` for OAuth authentication:
+
+  - The file can be obtained from [Google API Console](https://console.developers.google.com/apis/credentials):
+
+    <img src="resources/example_client_secrets.png" alt="Client secrets from Google API Console" width="640"/>
 
 ## Example
 
@@ -43,6 +53,6 @@ The software in this repo is released under CC-BY-SA 4.0, also found in the `LIC
 
 ## Improvements and issues
 
-* Lacking documentation
-* Structure could use some cleanup
-* No `setup.py`
+- Lacking documentation
+- Structure could use some cleanup
+- No `setup.py`
