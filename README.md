@@ -45,7 +45,7 @@ See example output below:
     Added <Søppel Glas/Metallemballasje, 2019-01-23 06:00:00, 2019-01-23 07:00:00>
     ...
 
-Functionality tested and working 2018-12-07 for 2019 renovation schedule.
+Functionality tested and working 2019-11-12 for 2020 renovation schedule.
 
 ## License
 
