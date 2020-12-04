@@ -1,5 +1,13 @@
 # Norkart Renovasjon to Google Calendar
 
+## 2021 notice
+
+**⚠️ WARNING: This software does NOT work for actors like ÅRIM and VØR for 2021.** This due to a change in their PDF layout where the dates are no longer specified with text, but rather with images. Due to this I've chosen to not update the functionality to accomodate this particular change and rather look for alternative approaches.
+
+So far, this means the software is not usuable for the upcoming renovation schedule.
+
+## Introduction
+
 This small piece of software does the following:
 
 1. Taps into Geonorge to find municipality number based on municipality name
